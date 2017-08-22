@@ -1,3 +1,8 @@
+## mvn 打包
+`mvn assembly:assembly`
+
+## flume 配置文件
+```
 # Name the components on this agent
 a1.sources = r1
 a1.sinks = k1
@@ -45,3 +50,6 @@ a1.channels.c1.transactionCapacity = 100
 # Bind the source and sink to the channel
 a1.sources.r1.channels = c1
 a1.sinks.k1.channel = c1
+
+
+```
